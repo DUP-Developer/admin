@@ -1,6 +1,8 @@
 <template>
   <div class='relative'>
-    <nuxt />
+    <div class="my-20">
+      <nuxt />
+    </div>
     <BottomBar />    
   </div>
 </template>
@@ -34,7 +36,7 @@ html {
 }
 
 .bar-color {
-  background-color: #373D42
+  background-color: #2D2D2D
 }
 
 .button--green {

@@ -1,27 +1,24 @@
 <template>
   <div class="container">
-    <div>
-      <logo />
+    <div>      
       <h1 class="title">
-        app
+        Hello!!
       </h1>
       <h2 class="subtitle">
-        the projetc for create  flux and atrthics
+        Going working now?
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
-          target="_blank"
+          href="/"
           class="button--green"
         >
-          Documentation
+          Create Proposal
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
+          href="/projects/list"
           class="button--grey"
         >
-          GitHub
+          View Projects
         </a>
       </div>
     </div>
@@ -29,12 +26,8 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
+  components: { }
 }
 </script>
 

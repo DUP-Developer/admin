@@ -5,8 +5,9 @@
 .container {
   margin: 0 auto;
   min-height: 100vh;
+  min-width: 90vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  /* justify-content: center;
+  align-items: center; */
+  /* text-align: center; */
 }
